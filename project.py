@@ -6,6 +6,20 @@ def roll():
   max_value = 6
   roll = random.randint(min_value,max_value)
   return roll
+
+while True:
+  players = input("Number of players (2-4")
+  if players.isdigit("):
+      players = int(players)
+      if 1<=players<=4:
+        break
+      else:
+        print("Must be between 2 - 4 players")
+  else:
+    print("Invalid, Try Again")
+        
+    
 #calling function
 value = roll()
 print(value)
+print(players)
