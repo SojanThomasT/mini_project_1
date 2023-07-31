@@ -17,9 +17,12 @@ while True:
         print("Must be between 2 - 4 players")
   else:
     print("Invalid, Try Again")
-        
+
+max_score = 50
+player_scores = [0 for I in rangfe(len(players)]
     
 #calling function
 value = roll()
 print(value)
 print(players)
+print(players_scores)
