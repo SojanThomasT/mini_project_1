@@ -7,7 +7,7 @@ def roll():
   roll = random.randint(min_value,max_value)
   return roll
 
-while True:
+#while True:
   players = input("Number of players (2-4): ")
   if players.isdigit():
       players = int(players)
@@ -23,6 +23,6 @@ player_scores = [0 for i in range(players)]
     
 #calling function
 value = roll()
-print(value)
+print(value) 
 print(players)
 print(player_scores) #[0,0,0,0]
