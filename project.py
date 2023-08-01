@@ -19,7 +19,7 @@ while True:
     print("Invalid, Try Again")
 
 max_score = 50
-player_scores = [0 for I in rangfe(len(players)]
+player_scores = [0 for i in range(players)]
     
 #calling function
 value = roll()
